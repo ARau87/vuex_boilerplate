@@ -1,0 +1,110 @@
+.app-menu {
+
+    position: absolute;
+    top: 0;
+
+    z-index: 2;
+
+    width: $menu-width;
+    height: 100vh;
+
+    background-color: $color-light;
+
+    padding: 0;
+    margin-left: $menu-width * -1;
+
+}
+
+.app-menu-header {
+
+    background-color: $color-secondary;
+
+    color: $color-light;
+
+    height: $header-height;
+    width: 100%;
+
+    text-align: center;
+
+}
+
+.app-menu-headline {
+
+    text-align: center;
+
+    width: 100%;
+
+    padding-top: $header-height / 2 - 10px; 
+
+
+}
+
+.app-menu .close-button {
+
+    text-align: center;
+
+    margin-top: 30px;
+    margin-left: 25%;
+
+    padding: 10px 0;
+
+    width: 50%;
+
+
+    background-color: $color-light;
+    color: $color-cta;
+
+    border: 2px solid $color-cta;
+
+    font-weight: bold;
+    
+    &:hover {
+
+        cursor: pointer;
+
+    }
+
+}
+
+// SUBMENUS
+
+.app-submenu {
+
+    margin-top: 30px;
+
+    width: 100%;
+
+}
+
+.app-submenu h4 {
+
+    width: 50%;
+    margin-left: 25%;
+
+    text-align: center;
+
+    border-bottom: 2px solid $color-secondary; 
+
+}
+
+// NAVIGATION STYLES
+
+.nav-item {
+
+    width: 100%;
+
+    text-align: center;
+
+}
+
+.nav-link {
+
+    width: 100%;
+
+    &:hover {
+
+        cursor: pointer;
+
+    }
+
+}

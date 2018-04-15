@@ -1,0 +1,28 @@
+{
+  "name": "qr-contacts",
+  "version": "0.0.1",
+  "description": "An app that allows saving personal data to share it with others through an qrcode",
+  "main": "index.js",
+  "author": "Andreas Rau",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp && webpack",
+    "start": "yarn build && node_modules/.bin/webpack-dev-server",
+    "deploy": "npm run build && firebase deploy"
+  },
+  "dependencies": {
+    "firebase": "^4.12.1",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.0",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.1"
+  }
+}

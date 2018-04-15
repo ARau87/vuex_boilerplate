@@ -1,0 +1,35 @@
+body {
+
+    background-color: $color-light;
+
+}
+
+.shift-right {
+
+    margin-left: $menu-width;
+    overflow: hidden;
+
+}
+
+.app-overlay-dark {
+
+    display: none;
+
+    position: absolute;
+    top: 0;
+    z-index: 1;
+
+    overflow: hidden;
+
+    background-color: rgba($color: #000000, $alpha: 0.5);
+
+    height: 100vh;
+    width: 100% - $menu-width;
+
+}
+
+.app-overlay--active {
+
+    display: block;
+
+}

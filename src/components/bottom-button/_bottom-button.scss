@@ -1,0 +1,40 @@
+.buttom-button {
+
+    font-weight: bold;
+    font-size: 1.4em;
+
+    position: fixed;
+    z-index: 2;
+    bottom: 10px;
+    right: 10px;
+
+    background-color: $color-primary;
+
+    color: $color-light;
+
+    border-radius: 40px 40px;
+
+    width: 40px;
+    height: 40px;
+
+    padding-top: 7px;
+
+    text-align: center;
+
+    &:hover {
+
+        cursor: pointer;
+
+    }
+    
+}
+
+.button--purpose-close-menu {
+
+    background-color: $color-cta;
+
+    padding-top: 5px;
+
+
+
+}

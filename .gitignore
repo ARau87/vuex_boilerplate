@@ -1,0 +1,3 @@
+node_modules/
+public/assets
+src/config/firebase.js

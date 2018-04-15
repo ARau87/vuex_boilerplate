@@ -1,0 +1,49 @@
+.app-header {
+
+    width: 100%;
+    height: $header-height;
+
+    padding-top: $header-height / 2 - 10px; 
+
+    background-color: $color-primary;
+    color: $color-light;
+
+}
+
+.logo-container {
+
+    width: 50%;
+    padding-left: 10px;
+
+}
+
+.menu-button-container {
+
+    width: 50%;
+    position: relative;
+
+}
+
+.menu-button {
+
+    position: absolute;
+    right: 10px;
+
+        &:hover {
+
+        cursor: pointer;
+
+    }
+}
+
+.app-header .close-button {
+
+    position: absolute;
+    right: 10px;
+
+        &:hover {
+
+        cursor: pointer;
+
+    }
+}
